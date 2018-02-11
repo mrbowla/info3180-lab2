@@ -22,7 +22,12 @@ def home():
 @app.route('/about/')
 def about():
     """Render the website's about page."""
-    return render_template('about.html', name="Mary Jane")
+    return render_template('about.html', name="Rahmeesh Bowla")
+    
+@app.route('/profile')
+def profile():
+    """Render the website's profile page"""
+    return render_template('profile.html')
 
 
 ###

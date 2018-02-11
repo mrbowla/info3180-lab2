@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block css %}
+<link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename = 'css/styles.css')}}">
+{% endblock%}
+
+
+
+
+
+{% block main %}
+<div id = "top">
+<img id = "image" src = "{{url_for('static', filename = 'photo.jpg')}}" ></img><br/>
+<h1>Rahmeesh Bowla</h1>
+@mrbowla<br/>
+Kingston, Jamaica <br/>
+Joined January, 2018 <br/>
+</div>
+
+<div id = "bottom">
+<p>I am a smart and talented young man who loves website design and development. Contanct me if you'd like to work together on a new project.</p>
+<div id = "statsarea">
+<table align ="center">
+    <tr>
+        <th>7</th> <th>10</th> <th>20</th>
+    </tr>
+    <tr>
+        <td>Posts</td> <td>Following</td> <td>Followers</td>
+    </tr>
+</table>
+
+<div id="buttons">
+<button id ="button">Follow</button>
+</div>
+    
+{% endblock %}
