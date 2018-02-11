@@ -25,7 +25,7 @@ span{
         margin-left: auto;
         margin-right: auto;
         border-radius: 50%;
-        width: 25%;
+        width: 20%;
         
     }
     
@@ -45,9 +45,7 @@ span{
     {
        text-align: center;
     }
-#stats{
-    text-align: center;
-}
+
 #top{
     background-color: #18C6D2;
     color: white;
